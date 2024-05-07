@@ -7,6 +7,6 @@ elif [ -f /etc/redhat-release ]; then
 	echo "Installing on Rhel(CentOS)"
     sudo yum install -y httpd
 else
-echo "ERROR: Unknoun system"
+echo "ERROR: Unknown system"
 exit 1
 fi
