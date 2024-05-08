@@ -8,5 +8,5 @@ elif [ -f /etc/redhat-release ]; then
   sudo yum install -y httpd
 else
   echo "ERROR: Unknown system"
-exit 1
+  exit 1
 fi
